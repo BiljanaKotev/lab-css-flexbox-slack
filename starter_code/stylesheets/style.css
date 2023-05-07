@@ -109,3 +109,14 @@ ul {
   width: 100%;
   margin-top: 25px;
 }
+
+.main-section {background: ivory;}
+.company-logo {width: 50px;}
+.nyt-spotify {width: 80px}
+
+.company-icons {display:flex; flex-direction: column; justify-content: center; align-items: center;}
+
+.middle-section img {width: 480px;}
+
+
+
