@@ -118,5 +118,10 @@ ul {
 
 .middle-section img {width: 480px;}
 
+.middle-section p {font-weight: 500;}
 
+.middle-section h2 {font-size: 26px;}
 
+.middle-section a {text-decoration: none;}
+
+.arrow-image {width:25px;}
