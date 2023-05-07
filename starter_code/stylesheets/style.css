@@ -15,7 +15,6 @@ body {
 
 .color-section {
   background-color: #540b51;
-  width: 360px;
   margin: 0 auto;
   max-width: 100%;
 }
@@ -46,7 +45,7 @@ ul {
 .header-container {
   width: 400px;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .header-container h1 {
@@ -92,13 +91,18 @@ ul {
 .google-btn {
   background: #4285f4;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .image-logo {
   width: 25px;
   background-color: white;
+  margin-right: auto;
+}
+
+.image-logo span {
+  margin-right: auto;
 }
 
 .screenshot-image {
