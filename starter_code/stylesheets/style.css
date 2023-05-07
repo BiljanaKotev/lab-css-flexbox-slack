@@ -176,6 +176,11 @@ ul {
   width: 360px;
 }
 
+.flex-reverse-img {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .middle-section-container {
   padding: 10px;
 }
