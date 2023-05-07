@@ -110,18 +110,87 @@ ul {
   margin-top: 25px;
 }
 
-.main-section {background: ivory;}
-.company-logo {width: 50px;}
-.nyt-spotify {width: 80px}
+.main-section {
+  background: #f3eae2;
+}
 
-.company-icons {display:flex; flex-direction: column; justify-content: center; align-items: center;}
+.logo-section > p {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
 
-.middle-section img {width: 480px;}
+.top-logos-container > img {
+  margin-right: 10px;
+}
 
-.middle-section p {font-weight: 500;}
+.top-logos-container > img[src*="airbnb"] {
+  width: 100px;
+}
 
-.middle-section h2 {font-size: 26px;}
+.top-logos-container > img[src*="nasa"] {
+  width: 50px;
+}
 
-.middle-section a {text-decoration: none;}
+.top-logos-container > img[src*="uber"] {
+  width: 80px;
+}
 
-.arrow-image {width:25px;}
+.top-logos-container > img[src*="target"] {
+  width: 40px;
+}
+
+/* 2nd row of flex company logos */
+
+.bottom-logos-container > img[src*="nyt"] {
+  width: 200px;
+}
+
+.bottom-logos-container > img[src*="spotify"] {
+  width: 125px;
+}
+
+.bottom-logos-container {
+  margin-bottom: 50px;
+}
+
+.company-logos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.company-logos > div {
+  margin-bottom: 25px;
+}
+
+/* section with colorful images */
+
+.middle-section-img-container > img {
+  width: 360px;
+}
+
+.middle-section-container {
+  padding: 10px;
+}
+.middle-section-container:last-child {
+  padding-bottom: 50px;
+}
+
+.middle-section p {
+  font-weight: 500;
+}
+
+.middle-section h2 {
+  font-size: 26px;
+}
+
+.middle-section a {
+  text-decoration: none;
+}
