@@ -17,12 +17,12 @@
   </head>
 
   <body>
-    <section class="color-section">
+    <section class="color-section purple-background">
       <nav class="nav-bar">
         <div class="nav-bar-container">
           <img src="./images/slack-logo.png" alt="Slack logo" id="slack-icon" />
 
-          <ul>
+          <ul class="nav-list">
             <li>
               <a href="#">Product</a>
             </li>
@@ -47,7 +47,7 @@
             <img src="./images/icon-menu.png" alt="Menu icon" />
           </button>
 
-          <ul hidden>
+          <ul class="desktop-nav-links">
             <li>
               <a href="#">Sign in</a>
             </li>
@@ -65,7 +65,7 @@
           <p><span>Slack is free to try</span> for as long as you'd like.</p>
 
           <div class="button-container">
-            <button class="cta-btn">Sign up with email</button>
+            <button class="cta-btn purple-text">Sign up with email</button>
 
             <button class="cta-btn google-btn">
               <img class="image-logo" src="./images/logo-google.png" alt="Google logo" />
@@ -156,19 +156,19 @@
           </div>
         </section>
       </section>
-      <section>
+      <section class="team-section">
         <h3>Teams large and small rely on Slack</h3>
         <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-        <div>
-          <button>Meet Slack for enterprise</button>
-          <button>Talk to sales</button>
+        <div class="team-btn-container">
+          <button class="purple-background">Meet Slack for enterprise</button>
+          <button class="purple-text">Talk to sales</button>
         </div>
 
         <ul>
           <li>
             <p><span>85%</span></p>
-            <p>
+            <p class="team-stats">
               of users say Slack has improved communication
               <sup>*</sup>
             </p>
@@ -176,7 +176,7 @@
 
           <li>
             <p><span>86%</span></p>
-            <p>
+            <p class="team-stats">
               feel their ability to work remotely has improved has improved
               <sup>*</sup>
             </p>
@@ -184,14 +184,17 @@
 
           <li>
             <p><span>88%</span></p>
-            <p>
+            <p class="team-stats">
               feel more connected to their teams*
               <sup>*</sup>
             </p>
           </li>
         </ul>
+        <p class="survey">
+          *Weighted average. Based on 2,707 survey responses from weekly Slack users in the U.S., UK, Australia and Canada with a +- 2% margin of error at 95% CI (August 202).
+        </p>
       </section>
-      <section>
+      <section class="welcome purple-background">
         <h3>Welcome to your new digital HQ</h3>
 
         <button>Try for free</button>
