@@ -41,6 +41,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  max-width: 100%;
 }
 
 #slack-icon {
@@ -56,6 +57,7 @@ a {
   border: 0 none;
   height: 1px;
   background-color: #6b6a6a;
+  width: 100%;
 }
 
 .header-container {
@@ -90,6 +92,10 @@ a {
   gap: 10px;
 }
 
+button.cta-btn {
+  margin-bottom: 0;
+}
+
 .google-btn {
   background: #4285f4;
   display: flex;
@@ -105,6 +111,7 @@ a {
 
 .google-span {
   margin-right: auto;
+  color: white;
 }
 
 .screenshot-image {
@@ -263,6 +270,9 @@ button[class*="purple"] {
 button[class*="purple-text"] {
   color: #540b51;
   background: white;
+}
+
+button[class*="try-for-free-btn"] {
   margin-bottom: 50px;
 }
 
@@ -374,15 +384,13 @@ div.small-copy {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  /* body {
+    min-width: 1024px;
+    max-width: 100%;
+  } */
+
   section.color-section {
     padding: 0 25px;
-  }
-
-  .nav-hr {
-    width: 800px;
-    margin-right: 0px;
-    position: relative;
-    left: -25px;
   }
 
   .header {
@@ -444,10 +452,10 @@ div.small-copy {
     width: 500px;
   }
 
-  .flex-reverse-img img {
+  /* .flex-reverse-img img {
     position: relative;
     right: 250px;
-  }
+  } */
 
   /* positioning of middle section headers and paragraphs */
 
