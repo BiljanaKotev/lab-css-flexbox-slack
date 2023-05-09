@@ -11,6 +11,7 @@ footer links grey: #454245
 
 body {
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
