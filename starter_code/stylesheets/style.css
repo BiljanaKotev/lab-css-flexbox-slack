@@ -385,10 +385,10 @@ div.small-copy {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* body {
+  body {
     min-width: 1024px;
     max-width: 100%;
-  } */
+  }
 
   section.color-section {
     padding: 0 25px;
@@ -421,11 +421,16 @@ div.small-copy {
   }
 
   div.btn-container {
-    width: 380px;
     margin-bottom: 100px;
   }
+
   .btn-container button {
     margin: 0;
+    width: 350px;
+  }
+
+  .btn-width {
+    width: 40%;
   }
 
   /* main section */
@@ -434,14 +439,18 @@ div.small-copy {
     display: initial;
   }
 
-  .company-logos-container div {
+  div.company-logos-container {
+    display: block;
+    margin-left: 75px;
+  }
+
+  .company-logos-container > div {
     display: inline-block;
   }
 
   .logo-section p {
     width: 50%;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-left: 150px;
   }
 
   .middle-section-img-container img {
