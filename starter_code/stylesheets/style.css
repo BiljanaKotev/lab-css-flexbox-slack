@@ -480,7 +480,7 @@ div.small-copy {
     margin-right: 250px;
   }
 
-  .btn-container > button {
+  button.team-btn {
     width: 25%;
     display: inline-block;
   }
