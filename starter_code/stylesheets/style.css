@@ -13,6 +13,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  color: #2e71a6;
+  text-decoration: none;
+}
+
 .color-section {
   margin: 0 auto;
   max-width: 100%;
@@ -45,6 +50,12 @@ body {
 .nav-btn {
   background: transparent;
   border: none;
+}
+
+.nav-hr {
+  border: 0 none;
+  height: 1px;
+  background-color: #6b6a6a;
 }
 
 .header-container {
@@ -263,6 +274,7 @@ button[class*="white-border"] {
 .team-section span {
   font-size: 50px;
   font-weight: 800;
+  color: #540b51;
 }
 
 .team-stats {
@@ -320,4 +332,39 @@ ul.footer-list {
 
 .footer-list li:last-child {
   margin-bottom: 0;
+}
+
+ul.footer-terms {
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 36px;
+  padding-left: 0;
+}
+
+ul.footer-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin-top: 25px;
+}
+
+div.small-copy {
+  font-size: 12px;
+  padding: 25px 0;
+}
+
+.small-copy {
+  text-align: left;
+  margin-right: 0px;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.footer-li-img {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
 }
