@@ -178,6 +178,10 @@ a {
   width: 360px;
 }
 
+.middle-section-img-container-dt > img {
+  display: none;
+}
+
 .flex-reverse-img {
   display: flex;
   flex-direction: row-reverse;
@@ -367,4 +371,136 @@ div.small-copy {
   justify-content: flex-start;
   gap: 10px;
   align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  section.color-section {
+    padding: 0 25px;
+  }
+
+  .nav-hr {
+    width: 800px;
+    margin-right: 0px;
+    position: relative;
+    left: -25px;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .header-container {
+    width: 190px;
+    margin: 0;
+  }
+
+  .header-container h1 {
+    text-align: left;
+  }
+
+  .header-container p {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 250px;
+    text-align: left;
+  }
+
+  .screenshot-container img {
+    width: 400px;
+    position: relative;
+    left: 180px;
+  }
+
+  div.btn-container {
+    width: 380px;
+    margin-bottom: 100px;
+  }
+  .btn-container button {
+    margin: 0;
+  }
+
+  /* main section */
+
+  .company-logos-container {
+    display: initial;
+  }
+
+  .company-logos-container div {
+    display: inline-block;
+  }
+
+  .logo-section p {
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+
+  .middle-section-img-container img {
+    display: none;
+  }
+
+  .middle-section-img-container-dt img {
+    display: block;
+    width: 500px;
+  }
+
+  .flex-reverse-img img {
+    position: relative;
+    right: 250px;
+  }
+
+  /* positioning of middle section headers and paragraphs */
+
+  .middle-section-container {
+    padding: 25px;
+    width: 450px;
+    margin-left: 150px;
+  }
+
+  .middle-section-container a {
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+
+  /* Team sections */
+
+  .team-section p {
+    padding-left: 0px;
+    margin-right: 225px;
+  }
+
+  .team-section h3 {
+    width: 50%;
+    margin-left: 80px;
+  }
+
+  .btn-container {
+    display: initial;
+    margin-left: 0px;
+    margin-right: 250px;
+  }
+
+  .btn-container > button {
+    width: 25%;
+    display: inline-block;
+  }
+
+  .team-section ul {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .team-section ul > li {
+    width: 250px;
+  }
+
+  .team-section ul > li > p {
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .team-percentages {
+    padding-right: 0;
+    padding-left: 40px;
+  }
 }
