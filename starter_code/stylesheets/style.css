@@ -222,7 +222,7 @@ button.cta-btn {
 
 .team-section h3 {
   font-size: 28px;
-  padding: 40px;
+  padding: 40px 40px 40px 0;
   width: 350px;
   margin-bottom: 0;
 }
