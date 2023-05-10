@@ -47,6 +47,7 @@ a {
 
 #slack-icon {
   width: 100px;
+  object-fit: contain;
 }
 
 .nav-btn {
