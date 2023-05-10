@@ -522,3 +522,10 @@ div.small-copy {
     padding-left: 40px;
   }
 }
+
+@media (min-width: 1440px) {
+  ul.nav-list {
+    display: flex;
+    gap: 25px;
+  }
+}
