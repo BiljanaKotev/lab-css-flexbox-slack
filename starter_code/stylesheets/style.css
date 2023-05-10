@@ -525,6 +525,11 @@ div.small-copy {
 }
 
 @media (min-width: 1440px) {
+  body {
+    min-width: 1400px;
+    max-width: 100%;
+  }
+
   #slack-icon {
     object-fit: contain;
   }
@@ -577,10 +582,21 @@ div.small-copy {
   .header {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 100px;
   }
 
   .header-container {
     margin: initial;
+  }
+
+  .header-container h1 {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .first-word {
+    display: block;
   }
 
   .header-container p {
@@ -590,5 +606,180 @@ div.small-copy {
 
   .screenshot-image {
     width: 500px;
+  }
+
+  div.btn-container {
+    flex-direction: row;
+    padding-bottom: 100px;
+  }
+
+  button[class*="cta-btn"] {
+    width: 400px;
+  }
+
+  /* logos section */
+
+  .company-logos-container {
+    flex-direction: row;
+    align-items: initial;
+  }
+
+  .company-logos-container img {
+    margin-right: 50px;
+  }
+
+  .bottom-logos-container {
+    margin-bottom: 100px;
+  }
+
+  .middle-section-dt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .middle-section-img-container img {
+    display: none;
+  }
+
+  .middle-section-img-container-dt img {
+    display: block;
+    width: 500px;
+  }
+
+  .middle-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 500px;
+  }
+
+  .middle-section h2 {
+    margin-left: 0;
+  }
+
+  .middle-section-container p {
+    align-self: center;
+    margin-top: 0px;
+    margin-right: 100px;
+    text-align: left;
+  }
+  .flex-rev-div {
+    flex-direction: row-reverse;
+  }
+
+  .flex-reverse-img {
+    position: absolute;
+    right: 10px;
+  }
+
+  .middle-section-dt:last-child {
+    padding-bottom: 100px;
+  }
+
+  /* team section */
+
+  .team-section h3 {
+    width: initial;
+    font-size: 32px;
+  }
+  button[class*="purple-background"] {
+    width: 350px;
+    margin-right: 0;
+  }
+  button[class*="purple-text"] {
+    width: 250px;
+    margin-left: 0;
+  }
+
+  .team-section div.btn-container {
+    margin-bottom: 75px;
+    justify-content: center;
+  }
+
+  .team-section ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .team-section ul > li {
+    text-align: left;
+  }
+
+  .team-section p {
+    padding: 0;
+  }
+
+  .team-stats {
+    text-align: left;
+  }
+
+  .survey {
+    display: none;
+  }
+
+  /* welcome section */
+
+  .welcome h3 {
+    width: inherit;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  .welcome div.btn-container {
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 0;
+  }
+
+  button[class*="purple-background"] {
+    margin-left: 0;
+    width: 200px;
+    border-radius: initial;
+  }
+
+  button[class*="purple-text"] {
+    margin-right: 0;
+    width: 200px;
+    border-radius: initial;
+  }
+
+  /* footer */
+
+  #footer img {
+    margin-left: 0;
+    padding: 0 25px;
+  }
+
+  .footer-list-container {
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  ul.footer-terms {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  ul.footer-icons {
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 0 25px;
+  }
+
+  div.small-copy {
+    padding: 0 25px;
   }
 }
