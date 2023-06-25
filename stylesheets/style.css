@@ -388,6 +388,10 @@ div.small-copy {
     max-width: 100%;
   }
 
+  .nav-hr {
+    display: none;
+  }
+
   .nav-list {
     display: flex;
     gap: 25px;
@@ -452,10 +456,11 @@ div.small-copy {
   }
 
   .header-container p {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 250px;
+    width: 350px;
+    line-height: 22px;
+    font-size: 22px;
     text-align: left;
+    font-weight: 500;
   }
 
   .screenshot-container img {
@@ -465,11 +470,22 @@ div.small-copy {
   }
 
   div.btn-container {
-    width: 380px;
     margin-bottom: 100px;
   }
   .btn-container button {
     margin: 0;
+  }
+
+  .header-btns {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100%;
+  }
+
+  .cta-btn {
+    width: 450px;
+    padding: 5px 25px;
+    font-size: 14px;
   }
 
   /* main section */
